@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 600px;
+    width: 600px;
+}
+div{
+    padding: 20px;
+    border-radius: 5px;
+}
+
+p{
+    color:  gray;
+}
+
+.violet{
+    background-color: hsl(263, 55%, 52%);
+}
+
+.gray{
+    background-color:hsl(217, 19%, 35%);
+}
+
+.black{
+    background-color:hsl(219, 29%, 14%);
+}
+
+.white{
+    background-color: hsl(0, 0%, 100%);
+}
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
